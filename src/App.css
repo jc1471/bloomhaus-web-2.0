@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+    background-image: url('/src/assets/Desktop\ -\ 1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1, h2, p, a {
+    color: #8B1D0F;
+}
+
+.bloomhaus-logo {
+    width: 80vw;
+    height: auto;
+
+    /* filter: invert(18%) sepia(44%) saturate(3000%) hue-rotate(330deg) brightness(75%) contrast(90%); */
+    /* fill: #800020; */
+
+    filter: 
+    brightness(0) saturate(100%)            /* make it pure black first */
+    invert(12%) sepia(95%) saturate(3543%)  /* push toward burgundy */
+    hue-rotate(356deg) brightness(80%) contrast(90%)
+    drop-shadow(0 8px 2px rgba(0, 0, 0, 0.25));
+
+
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+}
+
+.navbar {
+    font-family: 'Instrument Serif', serif;
+    
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    
+    font-size: 1.25rem;
+}
+
+.band-yellow {
+    width: 65%;
+    height: auto;
+
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}

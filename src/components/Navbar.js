@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div class="navbar">
-            <nav>
+        <div >
+            <nav class="navbar">
                 <a>MUSIC</a>
                 <a>VIDEOS</a>
                 <a>LIVE</a>
