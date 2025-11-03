@@ -1,0 +1,80 @@
+/* DEFAULT = MOBILE & PORTRAIT */
+
+@media (max-width: 320px) {
+    .navbar {
+        flex-direction: column;
+        background-color: green;
+
+    }
+}
+
+/* LANDSCAPE */
+
+@media (orientation: landscape) {
+    .logo-wrapper {
+        flex-direction: row-reverse;
+        background-color: blue;
+        top: 2vh;
+
+    }           
+    .bloomhaus-logo {   
+        top: -2vh;
+        width: 80vw;
+        height: auto;
+        left: 5vw;
+    }
+
+    .band-yellow {
+        
+        top: 25vh;
+        width: 35vw;
+        height: auto;
+        right: -4vw;
+        
+        }
+    
+    .flowers-transp {
+        display: flex;
+        }
+    }
+
+    .navbar {
+        gap: 5vw;
+        /*left: -5vw;*/
+        top: 10vh;
+    }
+
+    .socials {
+        justify-content: right;
+        padding-right: 15vw;
+    }
+
+  
+
+
+
+
+/*
+@media (min-width: 480px) and (max-width: 767px) {
+    .logo-wrapper {
+        flex-direction: row-reverse;
+        border: 2px solid green;
+        }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo-wrapper {
+        flex-direction: row-reverse;
+        border: 2px solid blue;
+        }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .logo-wrapper {
+        flex-direction: row-reverse;
+        border: 2px solid red;
+        }
+}
+*/
