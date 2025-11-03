@@ -45,7 +45,6 @@ h1, h2, p, a {
     justify-items: center;
     align-items: center;
     left: 5vw;
-    border: 1px, solid, green;
 }
 
 .bloomhaus-logo {
@@ -84,7 +83,6 @@ h1, h2, p, a {
 
 .navbar {
     /* display: none; */
-    border: 1px, blue, solid;
     position: relative;
     font-family: 'Instrument Serif', serif;
     gap: 15vw;
@@ -97,7 +95,7 @@ h1, h2, p, a {
 
 .navbar a:hover {
     font-weight:600;
-    
+    cursor:pointer;
 }
 .socials {
     position: fixed;
@@ -116,6 +114,10 @@ h1, h2, p, a {
 .socials a {
     font-size: 1.2rem;
     /* filter: brightness(0) invert(1); */
+}
+
+.socials a:hover {
+    font-weight:600;
 }
 
 .flowers-transp {

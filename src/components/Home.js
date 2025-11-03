@@ -10,16 +10,16 @@ const Home = () => {
             <div class="logo-wrapper">
                 <Logo />
                 <motion.img src="/assets/band-yellow-comp.webp" class="band-yellow"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 60 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 2.8 }} />
+                    transition={{ duration: 1, delay: 0.5 }} />
                 <Navbar />
             </div>
             
             <motion.img src="/assets/flowers-transp-comp.webp" class="flowers-transp"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 3.8 }} />
+                transition={{ duration: 0.5, delay: 1 }} />
             <Socials/>
         </div>
     );
