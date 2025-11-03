@@ -1,10 +1,13 @@
 import React from 'react';
-import BloomhausLogo from "../assets/bloomhaus_logo-02.png"
+import { motion } from "framer-motion";
 
 const Logo = () => {
     return (
         <div id="bloomhaus-logo">
-            <img src={BloomhausLogo} className="bloomhaus-logo" />
+            <motion.img src="/assets/bloomhaus_logo-02.png" className="bloomhaus-logo"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 4.8 }}/>
         </div>
     );
 }
